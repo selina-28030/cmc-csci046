@@ -426,7 +426,7 @@ def main(message,input_name):
     if input_name:
         print('enter your name')
         name = input()
-    else:
+    
         name = 'world'
     print(f'{message} {name}!')
 
@@ -696,7 +696,7 @@ def main(message,input_name):
     if input_name:
         print('enter your name')
         name = input()
-    else
+    
         name = 'world'
     print(f'{message} {name}!')
 
@@ -730,7 +730,7 @@ def main(message,input_name):
     if input_name:
         print('enter your name')
         name = input()
-    else
+    
         name = 'world'
     print(f'{message} {name}!')
 
@@ -815,5 +815,4 @@ $ git merge new_feature
 Running `git log --graph` will show an ASCII version of the graph.
 
 You should check the [git cheatsheet](https://github.com/mikeizbicki/ucr-cs100/blob/2015winter/textbook/cheatsheets/git-cheatsheet.md) to figure out what the `git checkout -b` command does.
-
 
