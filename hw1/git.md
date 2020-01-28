@@ -426,7 +426,7 @@ def main(message,input_name):
     if input_name:
         print('enter your name')
         name = input()
-    
+    else:    
         name = 'world'
     print(f'{message} {name}!')
 
@@ -654,7 +654,7 @@ With real bugs on more complicated software, bug fixes won't be quite this easy.
 They might require editing several different files and many commits.
 It might take us weeks just to find out what's even causing the bug!
 By putting our changes in a separate branch,
-we make it easy to have someone fixing the bug while someone else is adding new features.
+we make it easy to have someone fixing the bug while someone  is adding new features.
 
 ## Merge conflicts
 
@@ -696,7 +696,7 @@ def main(message,input_name):
     if input_name:
         print('enter your name')
         name = input()
-    
+    else: 
         name = 'world'
     print(f'{message} {name}!')
 
@@ -730,7 +730,7 @@ def main(message,input_name):
     if input_name:
         print('enter your name')
         name = input()
-    
+    else: 
         name = 'world'
     print(f'{message} {name}!')
 
